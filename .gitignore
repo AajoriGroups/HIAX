@@ -1,7 +1,6 @@
 
 # Zig
-zig-cache/
-zig-out/
+.zig-cache/
 build-aarch64.zig
 build-x86_64.zig
 
