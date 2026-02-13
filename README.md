@@ -31,7 +31,7 @@
 1.  Clone the repository:
 
     ```powershell
-    git clone https://github.com/your-repo/hiax.git
+    git clone https://github.com/AajoriGroups/HIAX.git
     cd hiax
     ```
 
