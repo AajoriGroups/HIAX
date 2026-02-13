@@ -1,0 +1,9 @@
+shreni Person {
+    kaam greet() {
+        bol("Namaste!");
+    }
+}
+
+bol("Class Person declared");
+dhor p = noya Person();
+bol("Instance p created");

@@ -1,0 +1,17 @@
+bol("--- Test 1: Standard For Loop ---");
+for (dhor i = 0; i < 5; i = i + 1) {
+    bol(i);
+}
+
+bol("--- Test 2: For Loop with pre-init ---");
+dhor j = 0;
+for (; j < 3; j = j + 1) {
+    bol(j);
+}
+
+bol("--- Test 3: For Loop with empty post ---");
+dhor k = 0;
+for (; k < 3; ) {
+    bol(k);
+    k = k + 1;
+}

@@ -1,0 +1,25 @@
+// 03_functions.hix
+// Functions (Kaam)
+
+// Standard Function
+function add(a, b) {
+    return a + b;
+}
+
+// Native Syntax
+kaam jodh(a, b) {
+    return a + b;
+}
+
+dhor res1 = add(5, 10);
+bol("Result (English): " + res1);
+
+dhor res2 = jodh(20, 30);
+bol("Result (Native): " + res2);
+
+// Void Function
+kaam greet(name) {
+    bol("Namaste, " + name);
+}
+
+greet("Developer");

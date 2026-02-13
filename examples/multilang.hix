@@ -1,0 +1,7 @@
+dhor lang = "Hiax";
+bol("Language is: ");
+bol(lang);
+
+var count = 5;
+echo("English count: ");
+echo(count);

@@ -1,0 +1,24 @@
+// 02_control_flow.hix
+// Control Flow: If-Else, While Loop, For Loop
+
+// If-Else (Jodi-Na)
+dhor x = 10;
+jodi (x > 5) {
+    bol("x is greater than 5");
+} na {
+    bol("x is small");
+}
+
+// While Loop (Ghur)
+bol("--- While Loop ---");
+dhor i = 0;
+ghur (i < 3) {
+    bol("Count: " + i);
+    i = i + 1;
+}
+
+// For Loop
+bol("--- For Loop ---");
+for (dhor j = 0; j < 3; j = j + 1) {
+    bol("For Count: " + j);
+}

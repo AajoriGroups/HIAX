@@ -1,0 +1,18 @@
+// 01_basics.hix
+// HIAX Basic Syntax: Variables and Printing
+
+// English Syntax
+var greeting = "Hello, World!";
+var count = 42;
+print(greeting);
+print("Count is: " + count);
+
+// Native Syntax (Hindi/Assamese)
+dhor namaste = "Namaste, Duniya!";
+dhor sankhya = 100;
+bol(namaste);
+bol("Sankhya hai: " + sankhya);
+
+// Mixing works too!
+dhor mixed = "Hello form HIAX";
+bol(mixed);

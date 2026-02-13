@@ -1,0 +1,28 @@
+// 05_future_concepts.hix
+// CONCEPTUAL ONLY - These features are NOT yet implemented!
+// This file demonstrates the future roadmap for HIAX as an AI-First Language.
+
+bol("--- HIAX Future AI Roadmap (Concept Demo) ---");
+
+// 1. Built-in Inference Keyword: 'socho' (Think)
+// dhor prompt = "Write a haiku about code";
+// dhor response = socho(prompt); 
+// bol(response);
+
+// 2. Semantic Types (Embeddings)
+// semantic similar_word = "King" - "Man" + "Woman";
+// jodi (similar_word ~= "Queen") {
+//     bol("Vector Arithmetic Works!");
+// }
+
+// 3. Agent Classes (Shreni Agent)
+// shreni WriterAgent {
+//     kaam init() {
+//         iswa.system_prompt = "You are a poetic assistant.";
+//     }
+// }
+
+// dhor writer = noya WriterAgent();
+// bol(writer.ask("Hello"));
+
+bol("These features are coming soon!");

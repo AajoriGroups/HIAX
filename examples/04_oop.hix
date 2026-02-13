@@ -1,0 +1,31 @@
+// 04_oop.hix
+// Object Oriented Programming
+// Classes (Shreni), Objects (New/Noya), Methods (Kaam)
+
+shreni Person {
+    // Constructor-like pattern: use 'init' method if desired, or just set fields
+    kaam init(name, age) {
+        iswa.name = name; // iswa means 'this'
+        iswa.age = age;
+    }
+
+    kaam introduce() {
+        bol("Hi, I am " + iswa.name);
+        bol("I am " + iswa.age + " years old.");
+    }
+}
+
+// Create Instance
+dhor p = noya Person();
+p.init("Rohan", 25);
+p.introduce();
+
+// English Syntax Class
+class Robot {
+    function beep() {
+        print("Beep Boop!");
+    }
+}
+
+var r = new Robot();
+r.beep();

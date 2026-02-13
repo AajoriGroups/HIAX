@@ -1,0 +1,21 @@
+
+# Zig
+zig-cache/
+zig-out/
+build-aarch64.zig
+build-x86_64.zig
+
+# HIAX Generated
+.hiax_temp.zig
+*_log*.txt
+errors.txt
+output.txt
+out*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+shreni Person {
+    kaam bol_naam() {
+        bol("Hello, I am a Person");
+    }
+}
+
+dhor p = noya Person();
+p.bol_naam();

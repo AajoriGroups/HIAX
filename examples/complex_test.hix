@@ -1,0 +1,16 @@
+shreni Counter {
+    kaam start(limit) {
+        dhor i = 0;
+        ghur (i < limit) {
+            jodi (i < 2) {
+                bol("Step low: " + i);
+            } na {
+                bol("Step high: " + i);
+            }
+            i = i + 1;
+        }
+    }
+}
+
+dhor c = noya Counter();
+c.start(4);
